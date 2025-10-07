@@ -1,15 +1,39 @@
-# Python / venv
+# --- Environnements virtuels (Poetry ou venv) ---
 .venv/
+venv/
+.env/
+.python-version
+
+# --- Python caches / artefacts ---
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.pkl
 
-# Jupyter
+# --- Notebooks ---
 .ipynb_checkpoints/
 
-# Data lourdes
+# --- Données (adapte selon ta politique) ---
 data/raw/
 data/processed/
+data/external/
+# Si tu veux versionner des échantillons, crée des .gitkeep et enlève l'ignore pour ces fichiers précis.
 
-# OS / IDE
-.DS_Store
+# --- Sorties / rapports / artefacts ---
+reports/
+outputs/
+logs/
+*.log
+
+# --- IDE / OS ---
 .vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# --- Conteneurs / build ---
+dist/
+build/
+*.egg-info/
