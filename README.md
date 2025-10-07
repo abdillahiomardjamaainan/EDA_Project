@@ -1,53 +1,64 @@
+# 📊 Projet EDA - Structure Complète# Structure du Projet EDAeda_project/
+
+## 🌳 Arborescence du Projet│
+
+# Structure du Projet EDA
+
+```
 eda_project/
 │
-├── � .git/ # Dossier de versioning Git (contrôle de version)
-├── 📄 .gitignore # Fichiers/dossiers à ignorer par Git
-├── 📁 .github/
-│ └── 📁 workflows/
-│ └── 📄 ci.yml # CI/CD (tests automatisés, lint, build)
+├── .git/                         # (auto) suivi de versions Git
+├── .gitignore                    # fichiers/dossiers à ignorer (voir plus bas)
 │
-├── � .venv/ # Environnement virtuel Python
+├── pyproject.toml                # fichier principal Poetry (équiv. à setup.py + requirements.txt)
+├── poetry.lock                   # versions exactes des dépendances
 │
-├── �📄 README.md # Présentation du projet
-├── 📄 requirements.txt # Dépendances Python
-├── 📄 setup.py # Packaging et installation du projet
-├── � Dockerfile # Conteneurisation du projet
-├── � PROJECT_TREE.md # Structure du projet (ce fichier)
+├── README.md                     # description du projet (objectif, installation, usage)
+├── Dockerfile                    # (optionnel) pour conteneuriser l'app
 │
-├── 📁 data/ # Données utilisées dans l'analyse
-│ ├── 📁 raw/ # Données brutes non traitées
-│ ├── 📁 processed/ # Données nettoyées et transformées
-│ └── � external/ # Données externes ou provenant d'APIs
+├── data/                         # dossiers pour tes datasets
+│   ├── raw/                      # données brutes (jamais modifiées)
+│   │   └── .gitkeep
+│   ├── processed/                # données nettoyées / transformées
+│   │   └── .gitkeep
+│   └── external/                 # données externes ou téléchargées
+│       └── .gitkeep
 │
-├── 📁 notebooks/ # Notebooks Jupyter pour l'exploration
-│ ├── 📄 cleaning.ipynb # 01 - Nettoyage des données
-│ ├── 📄 modeling.ipynb # 02 - Modélisation et analyse
-│ └── 📄 visualisation.ipynb # 03 - Visualisations et graphiques
+├── notebooks/                    # explorations Jupyter
+│   ├── 01_cleaning.ipynb
+│   ├── 02_visualization.ipynb
+│   └── 03_modeling.ipynb
 │
-├── 📁 src/ # Code source principal du projet
-│ ├── 📄 **init**.py
-│ ├── 📄 data_loader.py # Chargement et nettoyage des données
-│ ├── 📄 preprocessing.py # Feature engineering et préparation
-│ ├── 📄 visualization.py # Graphiques et dashboards
-│ ├── 📄 modeling.py # Modèles statistiques et Machine Learning
-│ │
-│ └── 📁 utils/
-│ ├── 📄 **init**.py
-│ ├── 📄 logger.py # Gestion des logs
-│ └── 📄 helpers.py # Fonctions utilitaires communes
+├── src/                          # code source du projet
+│   ├── __init__.py
+│   ├── data_loader.py            # chargement / nettoyage des données
+│   ├── preprocessing.py          # feature engineering
+│   ├── visualization.py          # visualisation et graphiques
+│   ├── modeling.py               # (optionnel) modèles statistiques / ML
+│   └── utils/
+│       ├── __init__.py
+│       ├── logger.py             # gestion des logs
+│       └── helpers.py            # fonctions utilitaires
 │
-├── 📁 tests/ # Tests unitaires et d'intégration
-│ ├── 📄 **init**.py
-│ ├── 📄 conftest.py # Configuration des tests pytest
-│ ├── 📄 test_data_loader.py # Tests du module data_loader
-│ └── 📄 test_visualization.py # Tests du module visualization
+├── tests/                        # tests unitaires
+│   ├── __init__.py
+│   ├── test_data_loader.py
+│   ├── test_visualization.py
+│   └── conftest.py
 │
-├── 📁 scripts/ # Scripts exécutables autonomes
-│ ├── � run_eda.py # Point d'entrée principal de l'EDA
-│ ├── 📄 export_charts.py # Export des graphiques générés
-│ └── 📄 generate_report.py # Génération de rapports automatisés
+├── scripts/                      # scripts exécutables
+│   ├── run_eda.py                # point d'entrée principal du projet
+│   ├── export_charts.py          # exporter des figures
+│   └── generate_report.py        # générer un rapport automatique
 │
-├── 📁 docs/ # Documentation du projet
-│ ├── 📄 index.md # Page d'accueil de la documentation
-│ └── 📄 conf.py # Configuration Sphinx (si utilisé)
+├── docs/                         # documentation technique
+│   ├── index.md
+│   └── conf.py                   # config ( Sphinx utilisé)
 │
+└── streamlit_app/ (optionnel)    # interface web Streamlit
+    ├── app.py
+    └── pages/
+        ├── 1_Overview.py
+        ├── 2_Visualizations.py
+        └── 3_Modeling.py
+```
