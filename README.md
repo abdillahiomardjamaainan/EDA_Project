@@ -64,36 +64,6 @@ eda_project/
         └── 3_Modeling.py
 ```
 
-│ ├── preprocessing.py # feature engineering
-│ ├── visualization.py # visualisation et graphiques
-│ ├── modeling.py # (optionnel) modèles statistiques / ML
-│ └── utils/
-│ ├── **init**.py
-│ ├── logger.py # gestion des logs
-│ └── helpers.py # fonctions utilitaires
-│
-├── tests/ # tests unitaires
-│ ├── **init**.py
-│ ├── test_data_loader.py
-│ ├── test_visualization.py
-│ └── conftest.py
-│
-├── scripts/ # scripts exécutables
-│ ├── run_eda.py # point d'entrée principal du projet
-│ ├── export_charts.py # exporter des figures
-│ └── generate_report.py # générer un rapport automatique
-│
-├── docs/ # documentation technique
-│ ├── index.md
-│ └── conf.py # config ( Sphinx utilisé)
-│
-└── streamlit_app/ (optionnel) # interface web Streamlit
-├── app.py
-└── pages/
-├── 1_Overview.py
-├── 2_Visualizations.py
-└── 3_Modeling.py
-
 ```
 
 ```
