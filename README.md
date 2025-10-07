@@ -1,7 +1,3 @@
-# 📊 Projet EDA - Structure Complète# Structure du Projet EDAeda_project/
-
-## 🌳 Arborescence du Projet│
-
 # Structure du Projet EDA
 
 ```
