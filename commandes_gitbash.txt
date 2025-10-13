@@ -1,0 +1,486 @@
+    1  git --version
+    2  pwd
+    3  ls
+    4  ls -l
+    5  ls
+    6  ls -la
+    7  cd
+    8  pwd
+    9  cd Downloads
+   10  cd
+   11  pwd
+   12  cd downloads
+   13  pwd
+   14  ls
+   15  cd -
+   16  ls
+   17  cd Documents
+   18  pwd
+   19  cd ..
+   20  pwd
+   21  cd Downloads
+   22  ls
+   23  ls -l
+   24  cd DOSSIER ADMINISTRATIVES
+   25  pwd
+   26  cd "DOSSIER ADMINISTRATIVES"
+   27  pwd
+   28  ls
+   29  cat passport.pdf
+   30  pwd
+   31  ls
+   32  cat "ACTE DE NAISSANCE"
+   33  cat "ACTE DE NAISSANCE.pdf"
+   34  ls
+   35  cat "MS - -Certif-Inscription-et-acompte - -MS-DATA_2025-26  ABDILLAHI OMAR DJAMA MS DATA.pdf"
+   36  less "MS - -Certif-Inscription-et-acompte - -MS-DATA_2025-26  ABDILLAHI OMAR DJAMA MS DATA.pdf"
+   37  mv passport.pd passeport.pdf
+   38  ls
+   39  mv passport.pdf passeport.pdf
+   40  ls
+   41  mkdir "saad"
+   42  cd saad
+   43  pwd
+   44  ls
+   45  touch ladan.txt
+   46  ls
+   47  rm ladan.txt
+   48  cd ..
+   49  cd
+   50  pwd
+   51  git --version
+   52  git config --global user.name "Abdillahi Omar"
+   53  git config --global user.email "abdillahiomardjamaainan@gmail.com"
+   54  git config --list
+   55  git config user.name
+   56  guit config --global
+   57  git config --global
+   58  mkdir "github"
+   59  cd github
+   60  pd
+   61  pwd
+   62  mv github gitub
+   63  cd ..
+   64  pwd
+   65  ls
+   66  mv github gitub
+   67  ls
+   68  mv gitub github
+   69  cd github
+   70  pwd
+   71  git init
+   72  git status
+   73  code .
+   74  git add fichier.txt
+   75  pwd
+   76  ls
+   77  touch test.txt
+   78  ls
+   79  ls
+   80  cd "formation python"
+   81  touch code.py
+   82  code code.py
+   83  git status
+   84  git add .
+   85  touch fichier.pdf
+   86  git status
+   87  git add.
+   88  git add .
+   89  git commit -m"formation python"
+   90  git log
+   91  git diff
+   92  ls
+   93  rm fichier.pdf
+   94  ls
+   95  git add.
+   96  git add .
+   97  git diff
+   98  git commit -m"suppression d'un ficher"
+   99  git log
+  100  git remote add origin https://github.com/abdillahiomardjamaainan/projet-test.git
+  101  git remote -v
+  102  git push -u origin master
+  103  git status
+  104  git add .
+  105  git commit -m"changement"
+  106  git push
+  107   [200~git clone https://github.com/octocat/Hello-World.git
+  108  git clone https://github.com/octocat/Hello-World.git
+  109  cd Hello-World
+  110  ls
+  111  git pull
+  112  git clone https://github.com/JustFS/cours-github.git
+  113  cd cours-github
+  114  ls
+  115  pwd
+  116  ls
+  117  cd github
+  118  ls
+  119  cd "formation python"
+  120  ls
+  121  cd "Hello-World"
+  122  ls
+  123  cd "cours-github
+  124  ls
+  125  pwd
+  126  q
+  127  cd "cours-github
+  128  ls
+  129  pwd
+  130  q
+  131  cd "cours-github"
+  132  ls
+  133  q
+  134  mkdir "formation python complete"
+  135  git init
+  136  ls -a
+  137  rm -rf .git
+  138  cd "formation python complete"/
+  139  git init
+  140  git add .
+  141  touch Readme.md
+  142  ls
+  143  nano Readme.md 
+  144  git add .
+  145  git status
+  146  git commit -m"Formation Python"
+  147  git log
+  148  git remote add origin https://github.com/abdillahiomardjamaainan/Formation-python-complete.git
+  149  git push -u origin master
+  150  code 
+  151  which code
+  152  pwd
+  153  ls
+  154  cd github/
+  155  ls
+  156  cd formation\ python/
+  157  ls
+  158  cd Hello-World/
+  159  ls
+  160  rm -r README 
+  161  ls
+  162  git add .
+  163  ls
+  164  git status
+  165  git Readme.md
+  166  git add Readme.md
+  167  git add README.md
+  168  git add -u
+  169  git log
+  170  git commit -m"suppression"
+  171  git push origin master
+  172  q
+  173  pwd
+  174  ls
+  175  cd Downloads/
+  176  ls
+  177  cd formation\ python\ complete/
+  178  ls
+  179  git add Untitled-1.py 
+  180  git status
+  181  git commit -m"nouveau"
+  182  git push origin master
+  183  ls
+  184  python
+  185  ls
+  186  cat Untitled-1.py 
+  187  ls
+  188  nano Untitled-1.py 
+  189  cat Untitled-1.py 
+  190  git add Untitled-1.py 
+  191  git commit -m"ajout des codes"
+  192  git push
+  193  ls
+  194  cd Downloads/
+  195  ls
+  196  cd formation\ python\ complete/
+  197  ls
+  198  code python.ipynb
+  199  pwd
+  200  ls
+  201  pwd
+  202  cd ..
+  203  pwd
+  204  ls
+  205  cd formation\ python\ complete/
+  206  ls
+  207  git add python.ipynb 
+  208  git commit -m"fichier notebook"
+  209  git push
+  210  ls
+  211  ls -a
+  212  nano .gitattributes
+  213  ls
+  214  ls -a
+  215  git add --renormalize python.ipynb
+  216  git status
+  217  git commit -m "Normalize line endings for Jupyter notebook"
+  218  git add python.ipynb 
+  219  git commit -m "Normalize line endings for Jupyter notebook"
+  220  git push
+  221  git add python.ipynb 
+  222  git commit -m"changement"
+  223  git add --renormalize .
+  224  git status
+  225  git add python.ipynb 
+  226  git commit -m"ch"
+  227  git push
+  228  git push
+  229  pwd
+  230  ls
+  231  cd Downloads/
+  232  mkdir cour_HTML
+  233  ls
+  234  cd cour_HTML/
+  235  code
+  236  touch index.html
+  237  rm index.html 
+  238  ls
+  239  conda --version
+  240  PWD
+  241  psql -U postgres
+  242  psql --version
+  243  export PATH=$PATH:"/c/Program Files/PostgreSQL/17/bin"
+  244  psql --version
+  245  psql - U postgres -h localhost -p 5432
+  246  psql - U postgres -h localhost -p 5432
+  247  psql - U postgres -h localhost -p 5432
+  248  psql
+  249  set PGPASSWORD
+  250  12345
+  251  set PGPASSWORD=12345
+  252  PGPASSWORD="12345" psql - U postgres -h localhost -p 5432
+  253  psql - U postgres -h localhost -p 5432
+  254  psql - U postgres -h localhost -p 5432
+  255  psql --version
+  256  psql -U postgres -h localhost -p 5432
+  257  psql - U postgres -h localhost -p 5432 -d icommerce
+  258  psql - U postgres -h localhost -p 5432 -d icommerce
+  259  psql - U postgres -h localhost -p 5432 -d icommerce
+  260  psql - U postgres -h localhost -p 5432 
+  261  psql - U postgres -h localhost -p 5432 
+  262  pwd
+  263  ls
+  264  cd Downloads/
+  265  ls
+  266  cd formation\ python\ complete/
+  267  ls
+  268  touch churn.ipynb
+  269  code .
+  270  PYTHON
+  271  ls ~/.ssh
+  272  cd ~/.ssh
+  273  ssh-keygen -o
+  274  cd ~/.ssh
+  275  ls
+  276  cat id_ed25519
+  277  cat id_ed25519.pub 
+  278  ls ~/.ssh
+  279  pwd
+  280  pwd
+  281  ssh
+  282  ubuntu@137.194.211.146
+  283  ssh ubuntu@137.194.211.146
+  284  java -version
+  285  cd ..
+  286  java -version
+  287  ls "/c/Program Files/Java"
+  288  pwd
+  289  java -version
+  290  cd .
+  291  pwd
+  292  java -version
+  293  java -version
+  294  java --version
+  295  java -version
+  296  ssh ubuntu@137.194.211.146
+  297  pwd
+  298  ls
+  299  ssh ubuntu@137.194.211.146
+  300  ls -al ~/.ssh
+  301  ls ~/.ssh
+  302  pwd
+  303  cat .ssh/id_ed25519
+  304  cd ~/.ssh
+  305  ls ~/
+  306  ls ~/.ssh
+  307  cd ~/.ssh
+  308  pwd
+  309  ls ~/.ssh
+  310  cat ~/.ssh id_ed25519.pub
+  311  exit
+  312  cd ~/.ssh
+  313  ls ~/.ssh
+  314  cd ~/.ssh
+  315  ls ~/.ssh
+  316  cat ~/.ssh id_ed25519.pub 
+  317  cd ~/.ssh
+  318  ls ~/.ssh
+  319  cat ~/.ssh id_ed25519.pub 
+  320  pwd
+  321  ssh ubuntu@137.194.211.146
+  322  ssh ubuntu@137.194.211.146
+  323  ssh
+  324  ssh -v
+  325  pwd
+  326  ls ~/.ssh
+  327  ssh ubuntu@137.194.211.146
+  328  ssh ubuntu@137.194.211.146
+  329  cd ~/.ssh
+  330  ls ~/.ssh
+  331  pwd
+  332  ls ~/.ssh
+  333  pwd
+  334  cat ~/.ssh id_ed25519
+  335  [200~ssh -L 8088:localhost:8088 -L 9870:localhost:9870 ubuntu@tp-hadoop-4
+  336  ssh -L 8088:localhost:8088 -L 9870:localhost:9870 ubuntu@tp-hadoop-4
+  337  pwd
+  338  pwd
+  339  ls -l
+  340  cd ~/Downloads/DOSSIER\ ADMINISTRATIVES/
+  341  pwd
+  342  cd ..
+  343  cd .
+  344  cd ..
+  345  pwd
+  346  ls
+  347  pwd
+  348  mkdir ~/Downloads/hadoop/test
+  349  ls -l ~/Downloads/hadoop/test/
+  350  rm -r ~/Downloads/hadoop/test/
+  351  ls -l ~/Downloads/hadoop
+  352  ls  ~/Downloads/hadoop
+  353  ls -l
+  354  scp ~/bigdata.ipynb aomar@tp-1a201-40:/cal/exterieurs/aomar-25 
+  355  nano .ssh/config
+  356  /.ssh/config
+  357  .ssh/config
+  358  pwd
+  359  ls -l 
+  360  ls -l .ssh
+  361  pwd
+  362  cd /.ssh
+  363  cd .ssh
+  364  ls -l
+  365  touch config
+  366  ls
+  367  pwd
+  368  nano /config
+  369  cat /config
+  370  ls
+  371  cat /config
+  372  ls /config
+  373  pwd
+  374  ls -l
+  375  cat config
+  376  cd 
+  377  pwd
+  378  ls .ssh
+  379  cat .ssh/config
+  380  vi .ssh/config
+  381  cat .ssh/config 
+  382  cat .ssh/config 
+  383  vi .ssh/config
+  384  vi .ssh/id_ed25519.pub 
+  385  pwd
+  386  ls .ssh
+  387  pwd
+  388  ~
+  389  ls ~
+  390  cat ~/churn
+  391  cat churn
+  392  ls
+  393  .ssh
+  394  ls .ssh
+  395  df -h
+  396  .ssh
+  397  ls .ssh
+  398  cat .ssh/id_ed25519.pub 
+  399  ping http://localhost:8088/
+  400  ping http://localhost:9870/
+  401  ping 9870
+  402  ls .ssh
+  403  cat .ssh/id_ed25519.pub 
+  404  ssh-keygen -R tp-hadoop-4
+  405   
+  406  ssh aomar-25@tp-1a201-01
+  407  pwd
+  408  exit
+  409  pyhton ~/Downloads/client_bonjour.py 
+  410  python ~/Downloads/client_bonjour.py 
+  411  pyhton ~/Downloads/client_performance.py 
+  412  python ~/Downloads/client_performance.py 
+  413  python ~/Downloads/client_performance.py 
+  414  python ~/Downloads/client_echec_race_condition.py 
+  415  python ~/Downloads/client_echec_race_condition.py 
+  416  python ~/Downloads/client_echec_race_condition.py 
+  417  python ~/Downloads/client_echec_race_condition.py 
+  418  python ~/Downloads/client_performance.py 
+  419  whoami
+  420  kind version
+  421  docker ps
+  422  docker ps
+  423  docker ps -a
+  424  scp ~/s1.txt aomar@tp-1a201-01:/cal/exterieurs/aomar-25 
+  425  scp ~/s2.txt aomar@tp-1a201-02:/cal/exterieurs/aomar-25 
+  426  scp ~/Downloads/s2.txt aomar@tp-1a201-02:/cal/exterieurs/aomar-25 
+  427  scp ~/Downloads/s2.txt aomar-25@tp-1a201-02:/cal/exterieurs/aomar-25 
+  428  scp ~/Downloads/s1.txt aomar-25@tp-1a201-01:/cal/exterieurs/aomar-25 
+  429  scp ~/Downloads/worker_tcp.py aomar-25@tp-1a201-01:/cal/exterieurs/aomar-25 
+  430  python ~/Downloads/coordinateur_tcp.py 
+  431  scp ~/Downloads/worker_distributed.py aomar-25@tp-1a201-01:/cal/exterieurs/aomar-25 
+  432  python ~/Downloads/coordinateur_distributed.py 
+  433  python ~/Downloads/coordinateur_results.py 
+  434  streamlit run app_stream.py
+  435  cd ..
+  436  cd ..
+  437  [200~(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -
+  438  poetry --version
+  439  pwd
+  440  poetry --version
+  441  poetry init
+  442  ls
+  443  poetry add $(cat requirements.txt)
+  444   
+  445  poetry install
+  446  cat pyproject.toml 
+  447  nano pyproject.toml 
+  448  nano pyproject.toml 
+  449  poetry install
+  450  nano pyproject.toml 
+  451  poetry install
+  452  poetry install --no-root
+  453  poetry check
+  454  poetry shell
+  455  poetry env activate
+  456  pwd
+  457  python -c "import pandas as pd; print(pd.__version__)"
+  458  poetry env info
+  459  git rm -f requirements.txt setup.py environment.yml 2>/dev/null
+  460  nano .gitignore 
+  461  touch data/raw/.gitkeep data/processed/.gitkeep data/external/.gitkeep
+  462  git add .
+  463  git status
+  464  git commit -m "Chore: migration vers Poetry + nettoyage env/fichiers"
+  465  git push
+  466  git add .
+  467  git commit -m "Arborescence avec Poetry"
+  468  git push
+  469  git add .
+  470  git commit -m "Arborescence avec Poetry"
+  471  git push
+  472  git rm -f requirements.txt setup.py
+  473  git add .
+  474  git commit -m "Suppression de requirements et setup"
+  475  git push
+  476  poetry run flake8
+  477  git add .
+  478  git commit -m "Modification"
+  479  git push
+  480  git add .
+  481  git commit -m "Modification"
+  482  git push
+  483  git add .
+  484  git commit -m "Modification"
+  485  git push
+  486  history > commandes_gitbash.txt
